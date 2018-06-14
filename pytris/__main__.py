@@ -1,8 +1,12 @@
 import sys
+import lib
 
 
 def main(args=None):
-    print('This is the main.')
+    player1 = lib.createPlayer()
+    player2 = lib.createPlayer()
+
+
 
 
 if __name__ == '__main__':
